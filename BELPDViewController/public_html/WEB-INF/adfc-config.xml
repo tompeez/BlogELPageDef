@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<adfc-config xmlns="http://xmlns.oracle.com/adf/controller" version="1.2">
+  <view id="index">
+    <page>/index.jsf</page>
+  </view>
+  <managed-bean id="__2">
+    <managed-bean-name>IndexBean</managed-bean-name>
+    <managed-bean-class>de.hahn.blog.elpagedef.view.beans.IndexBean</managed-bean-class>
+    <managed-bean-scope>session</managed-bean-scope>
+  </managed-bean>
+</adfc-config>
